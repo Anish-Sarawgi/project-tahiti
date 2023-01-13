@@ -22,9 +22,14 @@ function Category({ articleList, categoryShortName, category }) {
     <div className={classes.container}>
       <div className={classes.navbarContainer}>
         <Container>
-          <Typography variant='h1' className={classes.title}>
-            {category.name}
-          </Typography>
+          <div className={classes.navbarHeader}>
+            <Typography variant='h1' className={classes.title}>
+              {category.name}
+            </Typography>
+            <Typography variant='body2' className={classes.description}>
+              {category.description}
+            </Typography>
+          </div>
 
           <div className={classes.subCategories}>
             {/* Render SubCategories from the ROUTES object */}
@@ -94,6 +99,20 @@ const useStyles = makeStyles((theme) => ({
   navbarContainer: {
     backgroundColor: theme.palette.secondary.neutral20,
     paddingTop: '2.125rem',
+  },
+  navbarHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+  },
+  description: {
+    color: theme.palette.secondary.neutral70,
+    [theme.breakpoints.up('lg')]: {
+      marginLeft: '5em',
+    },
+    [theme.breakpoints.down('md')]: {
+      marginTop: '1em',
+    },
   },
   title: {
     display: 'inline-block',

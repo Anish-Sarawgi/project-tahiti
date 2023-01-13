@@ -12,6 +12,8 @@ const CATEGORIES = [
   },
   {
     name: 'Campus',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.CAMPUS.split('/')[1],
     path: LINKS.CATEGORIES.CAMPUS,
     asyncRoutePath: './Category',
@@ -21,6 +23,8 @@ const CATEGORIES = [
   },
   {
     name: 'Connect',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.CONNECT.split('/')[1],
     path: LINKS.CATEGORIES.CONNECT,
     asyncRoutePath: './Category',
@@ -30,6 +34,8 @@ const CATEGORIES = [
   },
   {
     name: 'DD & CWC',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.DDCWC.split('/')[1],
     path: LINKS.CATEGORIES.DDCWC,
     asyncRoutePath: './Category',
@@ -39,6 +45,8 @@ const CATEGORIES = [
   },
   {
     name: 'Career',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.CAREER.split('/')[1],
     path: LINKS.CATEGORIES.CAREER,
     asyncRoutePath: './Category',
@@ -48,6 +56,8 @@ const CATEGORIES = [
   },
   {
     name: 'Alumni',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.ALUMNI.split('/')[1],
     path: LINKS.CATEGORIES.ALUMNI,
     asyncRoutePath: './Category',
@@ -57,6 +67,8 @@ const CATEGORIES = [
   },
   {
     name: 'Expressions',
+    description:
+      'Catch up on everything at NITR in this section.From academics to Fests,find everything on campus here.',
     shortName: LINKS.CATEGORIES.EXPRESSIONS.split('/')[1],
     path: LINKS.CATEGORIES.EXPRESSIONS,
     asyncRoutePath: './Expressions',
